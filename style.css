@@ -22,6 +22,15 @@ img {
   padding-right: 40px;
 }
 
+a {
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+a:hover {
+    opacity: 0.6;
+}
+
 /*----------------------------------------------------------*/
 /* header */
 /*----------------------------------------------------------*/
@@ -30,6 +39,7 @@ img {
     height: 80px;
     position: fixed;
     background-color: #fff;
+    z-index: 9999;
 }
 
 .header__logo {
@@ -65,6 +75,21 @@ img {
 .main__text {
     font-size: 12px;
     padding: 10px 0 40px 0;
+}
+
+/*----------------------------------------------------------*/
+/* section */
+/*----------------------------------------------------------*/
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section__link {
+    margin-top: 10px;
+    margin-bottom: 70px;
+    padding: 20px;
 }
 
 /*----------------------------------------------------------*/
